@@ -254,7 +254,7 @@ or `system-configuration' directly."
   (interactive)
   ;; Set the default monospaced font
   (set-face-attribute 'default nil
-                      ;; :family "Iosevka Curly"
+                      :family "Iosevka Curly"
                       :slant  'normal
                       :weight 'normal
                       :width  'normal
@@ -262,7 +262,7 @@ or `system-configuration' directly."
   ;; Set an alternative monospaced font. Can be the same as above.
   ;; It should have the same character width as the default font
   (set-face-attribute 'fixed-pitch nil
-                      ;; :family "Iosevka Curly"
+                      :family "Iosevka Curly"
                       :slant  'normal
                       :weight 'normal
                       :width  'normal
@@ -270,28 +270,28 @@ or `system-configuration' directly."
   ;; Set an alternative monospaced font, preferably with serifs (optional)
   ;; It should have the same character width as the other two fonts above
   (set-face-attribute 'fixed-pitch-serif nil
-                      ;; :family "Iosevka Slab"
+                      :family "Iosevka Slab"
                       :slant  'normal
                       :weight 'normal
                       :width  'normal
                       :height 1.0)
   ;; Set the proportional font (toggle by "M-x variable-pitch-mode")
   (set-face-attribute 'variable-pitch nil
-                      ;; :family "Iosevka Etoile"
+                      :family "Iosevka Etoile"
                       :slant  'normal
                       :weight 'normal
                       :width  'normal
                       :height 1.0)
   ;; Set the fonts for the active mode line
   (set-face-attribute 'mode-line nil
-                      ;; :family "Iosevka Curly"
+                      :family "Iosevka Curly"
                       :slant  'normal
                       :weight 'normal
                       :width  'normal
                       :height 0.8)
   ;; Set the fonts for the inactive mode line
   (set-face-attribute 'mode-line-inactive nil
-                      ;; :family "Iosevka Curly"
+                      :family "Iosevka Curly"
                       :slant  'normal
                       :weight 'normal
                       :width  'normal
